@@ -1,0 +1,22 @@
+/*basic settings*/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+html {
+  font-size: 10px; }
+
+body {
+  font-family: 'Arial', sans-serif;
+  font-weight: 500; }
+
+img {
+  max-width: 100%; }
+
+section {
+  padding: 7% 0; }
+
+.container {
+  max-width: 1180px;
+  width: 95%;
+  margin: 0 auto; }
