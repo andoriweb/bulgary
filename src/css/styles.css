@@ -11,9 +11,29 @@ img {
   max-width: 100%; }
 
 section {
-  padding: 7% 0; }
+  padding: 100px 0; }
 
 .container {
   max-width: 1230px;
   width: 95%;
   margin: 0 auto; }
+
+/** <section class="main"> **/
+.main {
+  padding: 0; }
+
+.header-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.navigation a {
+  margin-right: 25px; }
+  .navigation a:last-child {
+    margin-right: 0; }
