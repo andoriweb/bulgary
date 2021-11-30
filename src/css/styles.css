@@ -4,8 +4,8 @@
           box-sizing: border-box; }
 
 body {
-  font-family: 'Arial', sans-serif;
-  font-weight: 500; }
+  font-family: 'Museo Sans Cyrl', sans-serif;
+  font-weight: 900; }
 
 img {
   max-width: 100%; }
@@ -18,9 +18,26 @@ section {
   width: 95%;
   margin: 0 auto; }
 
+@font-face {
+  font-family: 'Museo Sans Cyrl';
+  src: url("../fonts/MuseoSansCyrl-100.eot");
+  src: url("../fonts/MuseoSansCyrl-100.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl-100.woff2") format("woff2"), url("../fonts/MuseoSansCyrl-100.woff") format("woff"), url("../fonts/MuseoSansCyrl-100.ttf") format("truetype"), url("../fonts/MuseoSansCyrl-100.svg#MuseoSansCyrl-100") format("svg");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Museo Sans Cyrl';
+  src: url("../fonts/");
+  src: url("../fonts/?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl-900.woff2") format("woff2"), url("../fonts/MuseoSansCyrl-900.woff") format("woff"), url("../fonts/MuseoSansCyrl-900.ttf") format("truetype"), url("../fonts/MuseoSansCyrl-900.svg#MuseoSansCyrl-900") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap; }
+
 /** <section class="main"> **/
 .main {
-  padding: 0; }
+  padding: 0;
+  background: #143144 url(../img/main/main-bg.jpg); }
 
 .header-wrap {
   display: -webkit-box;
@@ -34,6 +51,9 @@ section {
           justify-content: space-between; }
 
 .navigation a {
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #fff;
   margin-right: 25px; }
   .navigation a:last-child {
     margin-right: 0; }
