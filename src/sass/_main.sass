@@ -54,6 +54,22 @@
       margin-right: 0
 
 .phone
+  position: relative
+  padding-left: 40px
+  
+  &::before
+    content: ''
+    display: inline-block
+    height: 25px
+    width: 25px
+    background: url(../img/main/phone.png) center center no-repeat
+    background-size: 50%
+    position: absolute
+    left: 0
+    top: 50%
+    transform: translateY(-50%)
+    border: 1px dashed #23aae2
+    border-radius: 50%
   a
     font-size: 16px
     color: #fff

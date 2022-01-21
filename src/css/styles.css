@@ -95,14 +95,31 @@ section {
   .navigation a:last-child {
     margin-right: 0; }
 
-.phone a {
-  font-size: 16px;
-  color: #fff;
-  letter-spacing: 0.02em;
-  line-height: 21px;
-  display: block; }
-  .phone a:first-child {
-    margin-bottom: 5px; }
+.phone {
+  position: relative;
+  padding-left: 40px; }
+  .phone::before {
+    content: '';
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    background: url(../img/main/phone.png) center center no-repeat;
+    background-size: 50%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    border: 1px dashed #23aae2;
+    border-radius: 50%; }
+  .phone a {
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 0.02em;
+    line-height: 21px;
+    display: block; }
+    .phone a:first-child {
+      margin-bottom: 5px; }
 
 .hero h1 {
   font-size: 90px;
