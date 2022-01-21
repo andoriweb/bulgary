@@ -1,8 +1,69 @@
-/** Media **/
-@media( max-width: 992px )
-  section
-    padding: 10% 0
+/** Hover **/
+@media ( min-width: 992px )
+  .navigation
+  a
+    &:hover
+      background: rgba(255,255,255, 0.15);
+      border-radius: 3px
 
-@media( max-width: 575px )
-	section
-    padding: 15% 0
+  
+  
+/** Media **/
+@media( max-width: 1200px )
+  .navigation
+    order: 1
+    width: 100%
+    text-align: center
+    padding: 10px 0
+    a
+      display: inline-block
+      padding: 5px 10px
+
+
+@media( max-width: 992px )
+  .hero
+    h1
+      font-size: 70px
+    span
+      font-size: 30px
+      margin-top: 30px
+
+
+
+@media( max-width: 750px )
+  .main
+    height: auto
+    &-arrow
+      width: 30px
+      height: 30px
+      background-size: 50%
+  .hero
+    margin: 10% 0
+    h1
+      font-size: 55px
+    span
+      font-size: 25px
+
+
+@media( max-width: 570px )
+  .hero
+    margin: 20% 0
+    h1
+      font-size: 35px
+      letter-spacing: 0.3em
+      line-height: 60px
+    span
+      letter-spacing: 0.3em
+      margin-top: 20px
+
+
+@media( max-width: 440px )
+  .header-wrap
+    flex-direction: column
+  .navigation
+    margin-top: 20px
+  .phone
+    margin-top: 20px
+    padding-left: 0
+    &::before
+      display: none
