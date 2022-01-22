@@ -10,13 +10,19 @@ body {
 img {
   max-width: 100%; }
 
-section {
-  padding: 100px 0; }
-
 .container {
   max-width: 1230px;
   width: 95%;
   margin: 0 auto; }
+
+section {
+  padding: 90px 0 100px 0; }
+
+.section-header {
+  font-size: 42px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.1em; }
 
 @font-face {
   font-family: 'Museo Sans Cyrl';
@@ -136,6 +142,48 @@ section {
   font-size: 51px;
   letter-spacing: 15px;
   margin-top: 45px; }
+
+/** <section class="features"> **/
+.features-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 60px; }
+
+.features-block {
+  width: 370px;
+  padding: 50px 40px;
+  text-align: center;
+  background-color: #f4f4f4;
+  -webkit-box-shadow: 1px 2px 4px 0px rgba(149, 147, 147, 0.33);
+          box-shadow: 1px 2px 4px 0px rgba(149, 147, 147, 0.33); }
+  .features-block__img {
+    height: 78px;
+    margin-bottom: 30px; }
+  .features-block__title {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    position: relative; }
+    .features-block__title::before {
+      content: '';
+      display: block;
+      width: 37px;
+      height: 1px;
+      background-color: #000;
+      position: absolute;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%);
+      bottom: -21px;
+      opacity: .3; }
+  .features-block__text {
+    font-size: 17px;
+    line-height: 22px;
+    font-weight: 100; }
 
 /** Hover **/
 @media (min-width: 992px) {
