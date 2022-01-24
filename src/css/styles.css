@@ -85,8 +85,8 @@ section {
     z-index: -1; }
   .main-arrow {
     display: block;
-    width: 50px;
-    height: 50px;
+    width: 51px;
+    height: 51px;
     background: url(../img/main/arrow.png) center center no-repeat;
     border: 1px dashed #fff;
     border-radius: 50%;
@@ -282,6 +282,7 @@ section {
     line-height: 17px;
     text-transform: uppercase;
     letter-spacing: 0.1em;
+    line-height: 1.2;
     margin: 65px auto 50px; }
     .moving-answer span {
       font-size: 18px;
@@ -295,7 +296,9 @@ section {
 @media (min-width: 992px) {
   .navigation a:hover {
     background: rgba(255, 255, 255, 0.15);
-    border-radius: 3px; } }
+    border-radius: 3px; }
+  .button:hover, .main-arrow:hover {
+    background-color: rgba(255, 255, 255, 0.2); } }
 
 /** Media **/
 @media (max-width: 1200px) {
