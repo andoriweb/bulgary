@@ -25,6 +25,19 @@ section {
   letter-spacing: 0.1em;
   line-height: 1.2; }
 
+.button {
+  border: 2px solid #ffffff;
+  border-radius: 4px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 15px 30px;
+  background: transparent;
+  font-size: 15px;
+  line-height: 35px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.1em; }
+
 @font-face {
   font-family: 'Museo Sans Cyrl';
   src: url("../fonts/MuseoSansCyrl-100.eot");
@@ -189,9 +202,98 @@ section {
       line-height: 22px;
       font-weight: 100; }
 
+/** <section class="moving"> **/
+.moving {
+  background: #2a3f50 url(../img/moving/pesok.jpg) center center no-repeat;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  z-index: 0; }
+  .moving::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #0e2a41;
+    opacity: 0.85;
+    z-index: -1; }
+  .moving-quote {
+    max-width: 445px;
+    margin: 30px auto 60px; }
+    .moving-quote q {
+      font-size: 18px;
+      line-height: 26px;
+      font-weight: 100;
+      font-style: italic; }
+    .moving-quote cite {
+      font-size: 14px;
+      line-height: 29px;
+      text-transform: uppercase;
+      display: block; }
+  .moving-question {
+    position: relative;
+    padding: 55px 30px;
+    font-size: 19px;
+    line-height: 35px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border: 1px dashed #fff;
+    max-width: 760px;
+    margin: 0 auto; }
+    .moving-question::before {
+      content: '';
+      display: block;
+      width: 32px;
+      height: 32px;
+      border: 1px solid #fff;
+      background: #213646 url(../img/arrow_mini.png) center center no-repeat;
+      background-size: 30%;
+      border-radius: 50%;
+      position: absolute;
+      top: -16px;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%); }
+    .moving-question::after {
+      content: '';
+      display: block;
+      width: 32px;
+      height: 32px;
+      border: 1px solid #fff;
+      background: #213646 url(../img/arrow_mini.png) center center no-repeat;
+      background-size: 30%;
+      border-radius: 50%;
+      position: absolute;
+      bottom: -16px;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%); }
+    .moving-question strong {
+      font-size: 23px;
+      font-weight: 900;
+      display: block; }
+  .moving-answer {
+    font-size: 37px;
+    line-height: 17px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 65px auto 50px; }
+    .moving-answer span {
+      font-size: 18px;
+      line-height: 31px;
+      font-weight: 100;
+      text-transform: none;
+      display: block;
+      margin-top: 20px; }
+
 /** Hover **/
 @media (min-width: 992px) {
-  a:hover {
+  .navigation a:hover {
     background: rgba(255, 255, 255, 0.15);
     border-radius: 3px; } }
 
