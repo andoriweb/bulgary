@@ -374,6 +374,78 @@ section {
       font-weight: 100;
       line-height: 31px; }
 
+/** <section class="feedback"> **/
+.feedback-block {
+  max-width: 840px;
+  margin: 100px auto 0; }
+  .feedback-block-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+
+.feedback-img {
+  width: 132px;
+  height: 132px;
+  border-radius: 50%; }
+
+.feedback-review {
+  max-width: 680px;
+  padding: 0 40px; }
+  .feedback-review-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .feedback-review__name {
+    font-size: 16px;
+    line-height: 17px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-right: 40px; }
+  .feedback-review__social {
+    font-size: 12px;
+    line-height: 20px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #23aae2;
+    margin-right: 40px; }
+  .feedback-review__city {
+    font-size: 12px;
+    line-height: 20px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #23aae2;
+    -ms-flex-preferred-size: 30%;
+        flex-basis: 30%;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    text-align: right; }
+    .feedback-review__city span {
+      display: inline-block;
+      width: 20px;
+      height: 10px;
+      background: url(../img/feedback/right.png) center center no-repeat;
+      background-size: 75%; }
+  .feedback-review-text {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 100;
+    font-style: italic;
+    letter-spacing: 0.1em;
+    color: #363636;
+    margin-top: 30px; }
+
 /** Hover **/
 @media (min-width: 992px) {
   .navigation a:hover {
