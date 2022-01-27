@@ -298,6 +298,78 @@ section {
       display: block;
       margin-top: 20px; }
 
+/** <section class="services"> **/
+.services {
+  text-align: center;
+  background: url(../img/services/city.jpg) center bottom no-repeat; }
+  .services-dream {
+    position: relative; }
+    .services-dream-block {
+      background-color: #f4f4f4;
+      -webkit-box-shadow: 1px 2px 4px 0px rgba(149, 147, 147, 0.33);
+              box-shadow: 1px 2px 4px 0px rgba(149, 147, 147, 0.33);
+      padding: 45px 25px;
+      max-width: 765px;
+      margin: 0 auto; }
+      .services-dream-block-1 {
+        padding-top: 70px;
+        margin-bottom: 10px;
+        margin-top: 150px; }
+      .services-dream-block-2 {
+        position: relative;
+        margin-bottom: 60px; }
+        .services-dream-block-2::before {
+          content: '';
+          display: block;
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+          background: #23aae2 url(../img/services/bol.png) center center no-repeat;
+          background-size: 50%;
+          position: absolute;
+          top: -37px;
+          left: 50%;
+          -webkit-transform: translateX(-50%);
+                  transform: translateX(-50%); }
+    .services-dream-img__1 {
+      width: 188px;
+      height: 188px;
+      background: url(../img/services/circle_sity_1.png) center center no-repeat;
+      background-size: cover;
+      position: absolute;
+      top: -125px;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%);
+      z-index: 1; }
+    .services-dream-img__2 {
+      width: 135px;
+      height: 135px;
+      background: url(../img/services/circle_sity_2.png) center center no-repeat;
+      background-size: cover;
+      position: absolute;
+      top: -65px;
+      left: 430px;
+      z-index: -1; }
+    .services-dream-img__3 {
+      width: 135px;
+      height: 135px;
+      background: url(../img/services/circle_sity_3.png) center center no-repeat;
+      background-size: cover;
+      position: absolute;
+      top: -65px;
+      left: 663px;
+      z-index: -1; }
+    .services-dream__title {
+      font-size: 20px;
+      line-height: 25px;
+      text-transform: uppercase;
+      margin-bottom: 20px; }
+    .services-dream__text {
+      font-size: 17px;
+      font-weight: 100;
+      line-height: 31px; }
+
 /** Hover **/
 @media (min-width: 992px) {
   .navigation a:hover {
@@ -305,7 +377,9 @@ section {
     border-radius: 3px; }
   .button:hover, .main-arrow:hover {
     background-color: rgba(255, 255, 255, 0.2);
-    cursor: pointer; } }
+    cursor: pointer; }
+  .button_blue:hover {
+    background-color: rgba(35, 170, 226, 0.1); } }
 
 /** Media **/
 @media (max-width: 1200px) {
