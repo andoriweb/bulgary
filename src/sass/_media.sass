@@ -13,8 +13,6 @@
   .button_blue:hover
     background-color: rgba(35, 170, 226, .1)
 
-  
-  
 /** Media **/
 @media( max-width: 1200px )
   .navigation
@@ -26,7 +24,6 @@
       display: inline-block
       padding: 5px 10px
 
-
 @media( max-width: 992px )
   .hero
     h1
@@ -35,7 +32,12 @@
       font-size: 30px
       margin-top: 30px
 
-
+  .feedback
+    &-block
+      &-wrap
+        flex-direction: column
+    &-img
+      margin-bottom: 50px
 
 @media( max-width: 750px )
   .main
@@ -44,6 +46,7 @@
       width: 30px
       height: 30px
       background-size: 50%
+
   .hero
     margin: 10% 0
     h1
@@ -51,6 +54,22 @@
     span
       font-size: 25px
 
+  .feedback
+    &-slider
+      margin-top: 50px
+    &-review
+      &-header
+        flex-direction: column
+        text-align: center
+      &__name
+        margin-right: 0
+        margin-bottom: 20px
+      &__social
+        margin-right: 0
+        margin-bottom: 20px
+      &__city
+        text-align: center
+        margin-bottom: 20px
 
 @media( max-width: 570px )
   .hero
@@ -71,6 +90,11 @@
     &-header
       font-size: 32px
 
+  .feedback
+    &-header
+      font-size: 32px
+    &-review
+      padding: 0 10px
 
 @media( max-width: 440px )
   .header-wrap
@@ -98,3 +122,7 @@
       &-img
         &__2, &__3
           display: none
+
+  .feedback
+    &-header
+      font-size: 28px
