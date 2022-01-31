@@ -484,6 +484,65 @@ section {
 button.owl-dot.active {
   background: #23aae2; }
 
+/** <section class="question"> **/
+.question {
+  background: #11b2f5;
+  color: #fff;
+  text-align: center; }
+  .question-description {
+    font-size: 21px;
+    line-height: 27px;
+    font-weight: 100;
+    margin-top: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em; }
+
+.form {
+  width: 370px;
+  margin: 95px auto 0;
+  position: relative; }
+  .form::before {
+    content: '';
+    display: block;
+    width: 34px;
+    height: 34px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    background: url(../img/arrow_mini.png) center center no-repeat;
+    background-size: 40%;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    top: -67px; }
+  .form input {
+    display: block;
+    width: 100%;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    background: #30c2ff;
+    color: #fff;
+    font-size: 13px;
+    line-height: 35px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 20px 30px;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0px 0px 35px 0px #5244444d;
+            box-shadow: 0px 0px 35px 0px #5244444d; }
+    .form input::-webkit-input-placeholder {
+      color: #fff; }
+      .form input::-webkit-input-placeholder::-moz-placeholder {
+        color: #fff; }
+      .form input::-webkit-input-placeholder:-moz-placeholder {
+        color: #fff; }
+      .form input::-webkit-input-placeholder:-ms-input-placeholder {
+        color: #fff; }
+  .form-btn {
+    margin-top: 20px;
+    width: 100%; }
+
 /** Hover **/
 @media (min-width: 992px) {
   .navigation a:hover {
