@@ -1,9 +1,11 @@
 /** <section class="feedback"> **/
 
 .feedback
+  padding-bottom: 100px
+
   &-slider
     max-width: 840px
-    margin: 100px auto 0
+    margin: 100px auto
 
   &-block
 
@@ -88,4 +90,19 @@
     left: -50px
 
 .owl-dots
-  background: red
+  // margin-bottom: -100px
+  position: absolute
+  bottom: -80px
+  left: 50%
+  transform: translateX(-50%)
+
+.owl-carousel button.owl-dot
+  width: 19px
+  height: 19px
+  border: 1px dashed #23aae2
+  border-radius: 50%
+  margin: 0 10px
+  background: transparent
+
+button.owl-dot.active
+  background: #23aae2
