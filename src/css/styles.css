@@ -533,15 +533,63 @@ button.owl-dot.active {
             box-shadow: 0px 0px 35px 0px #5244444d; }
     .form input::-webkit-input-placeholder {
       color: #fff; }
-      .form input::-webkit-input-placeholder::-moz-placeholder {
-        color: #fff; }
-      .form input::-webkit-input-placeholder:-moz-placeholder {
-        color: #fff; }
-      .form input::-webkit-input-placeholder:-ms-input-placeholder {
-        color: #fff; }
+    .form input::-moz-placeholder {
+      color: #fff; }
+    .form input:-moz-placeholder {
+      color: #fff; }
+    .form input:-ms-input-placeholder {
+      color: #fff; }
   .form-btn {
     margin-top: 20px;
     width: 100%; }
+
+/** <footer class="footer"> **/
+.footer {
+  background: #23aae2;
+  padding: 30px 0;
+  text-align: center;
+  color: #fff; }
+  .footer-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  .footer-logo {
+    min-width: 200px; }
+  .footer-politic {
+    min-width: 200px;
+    padding: 20px;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 100; }
+    .footer-politic, .footer-politic a {
+      color: #fff; }
+  .footer-phone {
+    min-width: 200px;
+    position: relative;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.02em; }
+    .footer-phone::before {
+      content: '';
+      display: inline-block;
+      height: 25px;
+      width: 25px;
+      background: url(../img/phone_white.png) center center no-repeat;
+      background-size: 50%;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+              transform: translateY(-50%);
+      border: 1px dashed #fff;
+      border-radius: 50%; }
 
 /** Hover **/
 @media (min-width: 992px) {
@@ -552,7 +600,9 @@ button.owl-dot.active {
     background-color: rgba(255, 255, 255, 0.2);
     cursor: pointer; }
   .button_blue:hover {
-    background-color: rgba(35, 170, 226, 0.1); } }
+    background-color: rgba(35, 170, 226, 0.1); }
+  a.footer-politic:hover {
+    color: blue; } }
 
 /** Media **/
 @media (max-width: 1200px) {
@@ -629,7 +679,11 @@ button.owl-dot.active {
   .feedback-header {
     font-size: 32px; }
   .feedback-review {
-    padding: 0 10px; } }
+    padding: 0 10px; }
+  .question-header {
+    font-size: 32px; }
+  .form {
+    width: 100%; } }
 
 @media (max-width: 440px) {
   .header-wrap {
