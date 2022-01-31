@@ -375,19 +375,20 @@ section {
       line-height: 31px; }
 
 /** <section class="feedback"> **/
-.feedback-block {
+.feedback-slider {
   max-width: 840px;
   margin: 100px auto 0; }
-  .feedback-block-wrap {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
+
+.feedback-block-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 .feedback-img {
   width: 132px;
@@ -445,6 +446,28 @@ section {
     letter-spacing: 0.1em;
     color: #363636;
     margin-top: 30px; }
+
+.owl-carousel .owl-nav {
+  font-family: 'Font Awesome';
+  font-size: 50px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #23aae2; }
+  .owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    right: -50px; }
+  .owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    left: -50px; }
+
+.owl-dots {
+  background: red; }
 
 /** Hover **/
 @media (min-width: 992px) {

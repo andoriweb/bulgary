@@ -1,9 +1,11 @@
 /** <section class="feedback"> **/
 
 .feedback
-  &-block
+  &-slider
     max-width: 840px
     margin: 100px auto 0
+
+  &-block
 
     &-wrap
       display: flex
@@ -22,7 +24,6 @@
     &-header
       display: flex
       justify-content: space-between
-
 
     &__name
       font-size: 16px
@@ -66,3 +67,25 @@
       letter-spacing: 0.1em
       color: #363636
       margin-top: 30px
+
+.owl-carousel .owl-nav
+  font-family: 'Font Awesome'
+  font-size: 50px
+  line-height: 20px
+  font-weight: 400
+  color: #23aae2
+
+  & button.owl-next
+    position: absolute
+    top: 50%
+    transform: translateY(-50%)
+    right: -50px
+
+  & button.owl-prev
+    position: absolute
+    top: 50%
+    transform: translateY(-50%)
+    left: -50px
+
+.owl-dots
+  background: red
