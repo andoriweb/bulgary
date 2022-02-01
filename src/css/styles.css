@@ -713,6 +713,7 @@ button.owl-dot.active {
     margin: 20px auto 0;
     padding: 15px 0; }
 
+/** page-about **/
 /** Hover **/
 @media (min-width: 992px) {
   .navigation a:hover {
