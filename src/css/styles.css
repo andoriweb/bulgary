@@ -633,7 +633,8 @@ button.owl-dot.active {
   font-weight: 100;
   text-align: center;
   max-width: 880px;
-  margin: auto; }
+  margin: auto;
+  padding: 0 10px; }
   .content-title b {
     font-weight: 900; }
 
@@ -761,7 +762,9 @@ button.owl-dot.active {
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
 
 .partners-block {
   background-color: #f4f4f4;
@@ -808,7 +811,7 @@ button.owl-dot.active {
 .fz-19 {
   font-size: 19px;
   font-weight: 100;
-  letter-spacing: 13px; }
+  letter-spacing: 11px; }
 
 .fz-15 {
   font-size: 15px; }
@@ -856,7 +859,12 @@ button.owl-dot.active {
   .feedback-img {
     margin-bottom: 50px; }
   .pages-hero h1 {
-    font-size: 50px; } }
+    font-size: 50px; }
+  .receive-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; } }
 
 @media (max-width: 750px) {
   .main {
@@ -887,7 +895,9 @@ button.owl-dot.active {
     margin-bottom: 20px; }
   .feedback-review__city {
     text-align: center;
-    margin-bottom: 20px; } }
+    margin-bottom: 20px; }
+  .pages-hero h1 {
+    font-size: 45px; } }
 
 @media (max-width: 570px) {
   .hero {
@@ -941,6 +951,8 @@ button.owl-dot.active {
     padding: 0; }
   .pages-content {
     padding: 40px 0 55px; }
+  .pages-hero h1 {
+    font-size: 34px; }
   .contacts-form {
     width: 100%; }
     .contacts-form input {
@@ -948,4 +960,13 @@ button.owl-dot.active {
     .contacts-form_btn {
       width: 100%; }
   .contacts-connect {
-    padding-left: 20px; } }
+    padding-left: 20px; }
+  .partners-block {
+    width: 100%;
+    margin: 10px 0; }
+  .about-header {
+    font-size: 30px; } }
+
+@media (max-width: 360px) {
+  .pages-hero h1 {
+    font-size: 30px; } }
