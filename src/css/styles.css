@@ -638,85 +638,6 @@ button.owl-dot.active {
   .content-title b {
     font-weight: 900; }
 
-/** page-contacts **/
-.contacts-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-top: 60px; }
-
-.contacts-connect {
-  width: 390px;
-  margin-bottom: 30px; }
-  .contacts-connect * {
-    color: #000; }
-  .contacts-connect__elem {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-bottom: 50px; }
-    .contacts-connect__elem:last-child {
-      margin-bottom: 0; }
-  .contacts-connect__img {
-    width: 32px;
-    margin-right: 25px; }
-  .contacts-connect__title {
-    font-size: 18px;
-    margin-bottom: 20px; }
-  .contacts-connect__link {
-    font-size: 16px;
-    font-weight: 100; }
-    .contacts-connect__link span {
-      display: inline-block;
-      min-width: 85px;
-      margin-right: 5px;
-      margin-bottom: 10px; }
-      .contacts-connect__link span:last-child {
-        margin-bottom: 0; }
-    .contacts-connect__link a {
-      display: inline-block;
-      margin-bottom: 10px; }
-      .contacts-connect__link a:last-child {
-        margin-bottom: 0; }
-
-.contacts-form {
-  width: 395px;
-  background: #11b2f5;
-  text-align: center;
-  color: #fff;
-  text-transform: uppercase;
-  padding: 40px 10px; }
-  .contacts-form_header {
-    font-size: 25px;
-    line-height: 30px; }
-    .contacts-form_header span {
-      display: block;
-      font-size: 20px;
-      letter-spacing: 0.1em; }
-  .contacts-form_descr {
-    font-size: 18px;
-    margin-top: 10px;
-    margin-bottom: 32px; }
-  .contacts-form input {
-    padding: 15px 40px;
-    width: 290px;
-    margin: 0 auto 10px; }
-  .contacts-form_btn {
-    width: 290px;
-    margin: 20px auto 0;
-    padding: 15px 0; }
-
 /** page-about **/
 .receive-wrapper {
   display: -webkit-box;
@@ -819,6 +740,114 @@ button.owl-dot.active {
 .color-blue {
   color: #23aae2; }
 
+/** page-move **/
+.move-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 820px;
+  margin: 30px auto 0; }
+  .move-block_1 {
+    margin-top: 65px; }
+  .move-block__img {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 40%;
+            flex: 0 1 40%; }
+    .move-block__img_1 {
+      margin-right: 40px; }
+    .move-block__img_2 {
+      margin-left: 40px; }
+  .move-block__text {
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 1.4;
+    letter-spacing: 1px; }
+
+/** page-contacts **/
+.contacts-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 60px; }
+
+.contacts-connect {
+  width: 390px;
+  margin-bottom: 30px; }
+  .contacts-connect * {
+    color: #000; }
+  .contacts-connect__elem {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 50px; }
+    .contacts-connect__elem:last-child {
+      margin-bottom: 0; }
+  .contacts-connect__img {
+    width: 32px;
+    margin-right: 25px; }
+  .contacts-connect__title {
+    font-size: 18px;
+    margin-bottom: 20px; }
+  .contacts-connect__link {
+    font-size: 16px;
+    font-weight: 100; }
+    .contacts-connect__link span {
+      display: inline-block;
+      min-width: 85px;
+      margin-right: 5px;
+      margin-bottom: 10px; }
+      .contacts-connect__link span:last-child {
+        margin-bottom: 0; }
+    .contacts-connect__link a {
+      display: inline-block;
+      margin-bottom: 10px; }
+      .contacts-connect__link a:last-child {
+        margin-bottom: 0; }
+
+.contacts-form {
+  width: 395px;
+  background: #11b2f5;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 40px 10px; }
+  .contacts-form_header {
+    font-size: 25px;
+    line-height: 30px; }
+    .contacts-form_header span {
+      display: block;
+      font-size: 20px;
+      letter-spacing: 0.1em; }
+  .contacts-form_descr {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 32px; }
+  .contacts-form input {
+    padding: 15px 40px;
+    width: 290px;
+    margin: 0 auto 10px; }
+  .contacts-form_btn {
+    width: 290px;
+    margin: 20px auto 0;
+    padding: 15px 0; }
+
 /** Hover **/
 @media (min-width: 992px) {
   .navigation a:hover {
@@ -897,7 +926,23 @@ button.owl-dot.active {
     text-align: center;
     margin-bottom: 20px; }
   .pages-hero h1 {
-    font-size: 45px; } }
+    font-size: 45px; }
+  .move-hero h1 {
+    letter-spacing: 10px; }
+  .move-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .move-block__img_1 {
+      margin: 0; }
+    .move-block__img_2 {
+      margin: 0;
+      -webkit-box-ordinal-group: 0;
+          -ms-flex-order: -1;
+              order: -1; }
+    .move-block__text {
+      margin-top: 30px; } }
 
 @media (max-width: 570px) {
   .hero {
@@ -920,7 +965,9 @@ button.owl-dot.active {
   .question-header {
     font-size: 32px; }
   .form {
-    width: 100%; } }
+    width: 100%; }
+  .move-hero h1 {
+    font-size: 30px; } }
 
 @media (max-width: 440px) {
   .header-wrap {
@@ -965,8 +1012,12 @@ button.owl-dot.active {
     width: 100%;
     margin: 10px 0; }
   .about-header {
-    font-size: 30px; } }
+    font-size: 30px; }
+  .move-hero h1 {
+    font-size: 28px; } }
 
 @media (max-width: 360px) {
   .pages-hero h1 {
-    font-size: 30px; } }
+    font-size: 30px; }
+  .move-hero h1 {
+    font-size: 24px; } }

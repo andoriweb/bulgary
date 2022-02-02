@@ -88,6 +88,21 @@
       h1
         font-size: 45px
 
+  .move
+    &-hero
+      h1
+        letter-spacing: 10px
+    &-block
+      flex-direction: column
+      &__img
+        &_1
+          margin: 0
+        &_2
+          margin: 0
+          order: -1
+      &__text
+        margin-top: 30px
+
 @media( max-width: 570px )
   .hero
     margin: 20% 0
@@ -118,6 +133,11 @@
       font-size: 32px
   .form
     width: 100%
+
+  .move
+    &-hero
+      h1
+        font-size: 30px
 
 @media( max-width: 440px )
   .header-wrap
@@ -178,9 +198,19 @@
     &-header
       font-size: 30px
 
+  .move
+    &-hero
+      h1
+        font-size: 28px
+
 @media( max-width: 360px )
 
   .pages
     &-hero
       h1
         font-size: 30px
+
+  .move
+    &-hero
+      h1
+        font-size: 24px
