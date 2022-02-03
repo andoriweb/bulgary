@@ -20,7 +20,16 @@ $('.owl-carousel').owlCarousel({
         nav:true
     }
   }
-})
+});
 
 ///////////////////////////////////////
 
+// mobile navigation
+
+document.querySelector('#gamburger').onclick = function() {
+  document.querySelector('.navigation-mobile-block').style.display = 'block';
+};
+
+document.querySelector('#close').onclick = function() {
+  document.querySelector('.navigation-mobile-block').style.display = 'none';
+};

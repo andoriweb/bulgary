@@ -218,7 +218,8 @@ section {
   color: #000;
   position: absolute;
   top: 0;
-  right: 0; }
+  right: 0;
+  cursor: pointer; }
 
 /** <section class="features"> **/
 .features {
