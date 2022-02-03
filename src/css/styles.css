@@ -3,6 +3,9 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
+html {
+  scroll-behavior: smooth; }
+
 body {
   font-family: 'Museo Sans Cyrl', sans-serif;
   font-weight: 900; }
