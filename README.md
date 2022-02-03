@@ -1,3 +1,4 @@
 # bulgary
 
-https://andoriweb.github.io/bulgary/
+https://andoriweb.github.io/bulgary/src
+
