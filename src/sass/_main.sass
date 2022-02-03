@@ -49,6 +49,31 @@
     line-height: 17px
     padding: 10px
 
+  &-mobile
+    display: flex
+    flex-direction: column
+    text-align: center
+
+    a
+      display: block
+      color: #000
+      font-size: 18px
+      text-transform: uppercase
+      letter-spacing: 0.1em
+      line-height: 17px
+      margin-top: 30px
+
+    &-block
+      display: none
+      width: 100%
+      background: rgba(255, 255, 255, .8)
+      padding: 30px
+      position: fixed
+      top: 0
+      left: 50%
+      transform: translateX(-50%)
+      z-index: 99
+
 .phone
   position: relative
   padding-left: 40px
@@ -91,3 +116,28 @@
     font-size: 51px
     letter-spacing: 15px
     margin-top: 45px
+
+.gamburger
+  display: none
+  height: 25px
+  width: 30px
+  background: url(../img/main/burger-white.png) center center no-repeat
+  background-size: cover
+  cursor: pointer
+  margin-left: 30px
+
+  &-block
+    display: flex
+    align-items: center
+
+.close
+  background: transparent
+  font-size: 40px
+  padding: 0
+  line-height: 0
+  width: 40px
+  height: 40px
+  color: #000
+  position: absolute
+  top: 0
+  right: 0

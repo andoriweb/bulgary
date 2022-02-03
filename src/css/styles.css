@@ -121,6 +121,35 @@ section {
   line-height: 17px;
   padding: 10px; }
 
+.navigation-mobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center; }
+  .navigation-mobile a {
+    display: block;
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 17px;
+    margin-top: 30px; }
+  .navigation-mobile-block {
+    display: none;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    z-index: 99; }
+
 .phone {
   position: relative;
   padding-left: 40px; }
@@ -162,6 +191,34 @@ section {
   font-size: 51px;
   letter-spacing: 15px;
   margin-top: 45px; }
+
+.gamburger {
+  display: none;
+  height: 25px;
+  width: 30px;
+  background: url(../img/main/burger-white.png) center center no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  margin-left: 30px; }
+  .gamburger-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+
+.close {
+  background: transparent;
+  font-size: 40px;
+  padding: 0;
+  line-height: 0;
+  width: 40px;
+  height: 40px;
+  color: #000;
+  position: absolute;
+  top: 0;
+  right: 0; }
 
 /** <section class="features"> **/
 .features {
@@ -757,8 +814,8 @@ button.owl-dot.active {
     margin-top: 65px; }
   .move-block__img {
     -webkit-box-flex: 0;
-        -ms-flex: 0 1 40%;
-            flex: 0 1 40%; }
+        -ms-flex: 0 0 40%;
+            flex: 0 0 40%; }
     .move-block__img_1 {
       margin-right: 40px; }
     .move-block__img_2 {
@@ -875,6 +932,10 @@ button.owl-dot.active {
       padding: 5px 10px; } }
 
 @media (max-width: 992px) {
+  .navigation {
+    display: none; }
+  .gamburger {
+    display: block; }
   .hero h1 {
     font-size: 70px; }
   .hero span {
@@ -896,6 +957,8 @@ button.owl-dot.active {
             flex-direction: column; } }
 
 @media (max-width: 750px) {
+  .phone {
+    display: none; }
   .main {
     height: auto; }
     .main-arrow {
@@ -970,18 +1033,8 @@ button.owl-dot.active {
     font-size: 30px; } }
 
 @media (max-width: 440px) {
-  .header-wrap {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; }
-  .navigation {
-    margin-top: 20px; }
-  .phone {
-    margin-top: 20px;
-    padding-left: 0; }
-    .phone::before {
-      display: none; }
+  .navigation-mobile-block {
+    padding: 30px 0; }
   .features-header {
     font-size: 32px; }
   .features-wrapper {
